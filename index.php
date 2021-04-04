@@ -215,12 +215,12 @@
                 <h1>Contact</h1>
                 <h6>Let's work together</h6>
             </div>
-            <form action="">
-                <label for="name">Name:</label>
+            <form action="mailreceive.php" method="POST">
+                <label for="name" name="fullname">Name:</label>
                 <input type="text" id="name" placeholder="Enter Your Name" required>
-                <label for="email">Email:</label>
+                <label for="email" name="email">Email:</label>
                 <input type="text" id="name" placeholder="Enter Your Email" required>
-                <label for="services" required>Services:</label>
+                <label for="services" name="services" required>Services:</label>
                 <select name="services" id="services">
                     <option value="">Web Developer</option>
                     <option value="">Web Design</option>
